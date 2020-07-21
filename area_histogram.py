@@ -28,3 +28,5 @@ if __name__ == '__main__':
     mouseID = args.mouseID
     filter_size = args.filter_size
     brain_area = args.brain_area
+    area_histogram(alldat, mouseID, filter_size, brain_area)
+ 
